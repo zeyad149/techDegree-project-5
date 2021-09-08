@@ -1,0 +1,62 @@
+.wrapper{
+  margin: auto;
+
+}
+
+.in{
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 15px;
+}
+input{
+  padding-top:10px;
+  padding-right: 400px;
+  padding-bottom: 10px;
+
+}
+
+input::placeholder{
+  text-align: left;
+
+}
+
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 5px;
+  grid-template-areas:
+  "one two three four";
+}
+.gallery > div {
+  justify-content: center;
+
+}
+/* .picture{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+
+
+} */
+img{
+  max-width: 200px;
+
+}
+
+
+}
+
+.one {
+  grid-area: one;
+}
+.two {
+  grid-area: two;
+}
+.three {
+  grid-area: three;
+}
+.four {
+  grid-area: four;
+}
