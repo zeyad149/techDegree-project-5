@@ -1,5 +1,6 @@
 .wrapper{
-  margin: auto;
+  margin-left: 25px;
+  margin-right: 25px;
 
 }
 
@@ -23,27 +24,18 @@ input::placeholder{
 }
 
 .gallery {
-  max-width: 250px;
-  max-height: 250px;
-  margin-left:120px;
   margin-bottom: 50px;
   display: grid;
   grid-template-columns: repeat(4,1fr);
-  grid-gap: 5px;
+  grid-gap: 20px;
   grid-template-areas:
   "one two three four";
-  grid-gap: 25px;
+
 }
 .picture{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  align-content: space-around;
-}
-img{
-  max-width: 280px;
-  height: 200px;
-
 }
 
 .one {
